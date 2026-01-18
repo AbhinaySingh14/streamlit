@@ -10,6 +10,9 @@ st.write(''' welcome everyone this is my first web app
 st.write(df)
 st.line_chart(df)
 
+myslider=st.slider('celsius')
+st.write(myslider,'in fahrenheit',celsius*9/5 +32)
+
 #run by typing (streamlit run main.py) in terminal
 #to deploy it connect to fithub using version controll and push it
 # then go to 
